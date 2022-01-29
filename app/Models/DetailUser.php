@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class DetailUser extends Model
 {
-    use HasFactory;
+
     use SoftDeletes;
 
     public $table = 'detail_user';
@@ -57,6 +57,6 @@ class DetailUser extends Model
      */
     public function user(): BelongsTo
     {
-        return $this->belongsTo(User::class, 'users_id', 'id');
+        return $this->belongsTo(User::class, 'users_id');
     }
 }
