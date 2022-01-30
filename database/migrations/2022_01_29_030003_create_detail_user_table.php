@@ -17,7 +17,7 @@ class CreateDetailUserTable extends Migration
             $table->id();
             $table->unsignedBigInteger('users_id')->nullable();
             $table->longText('photo')->nullable();
-            $table->string('role');
+            $table->string('role')->nullable();
             $table->string('contact_number')->nullable();
             $table->longText('biography')->nullable();
             $table->timestamps();
