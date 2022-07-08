@@ -19,8 +19,10 @@ class CreateDetailUserTable extends Migration
             $table->longText('photo')->nullable();
             $table->string('role')->nullable();
             $table->string('contact_number')->nullable();
-            $table->longText('biography')->nullable();
+            $table->longText('biography')->nullable(); 
+            $table->softDeletes();      
             $table->timestamps();
+            
 
 
             $table->foreign('users_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
