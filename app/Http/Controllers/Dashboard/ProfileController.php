@@ -143,7 +143,7 @@ class ProfileController extends Controller
         $detail_user->update($data_detail_user);
 
         // proses save to experience
-        $experience_user_id = ExperienceUser::where('detail_user_id',$detail_user['id']->first());
+        $experience_user_id = ExperienceUser::where('detail_user_id',$detail_user['id']);
         if(isset($experience_user_id)){
             foreach ($data_profile['experience'] as $key => $value) {
                 $experience_user = ExperienceUser::find($key);
