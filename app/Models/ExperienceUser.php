@@ -25,7 +25,7 @@ class ExperienceUser extends Model
 
 
     protected $fillable = [
-        'detail_users_id',
+        'detail_user_id',
         'experience',
         'created_at',
         'updated_at',
