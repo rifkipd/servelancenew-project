@@ -20,7 +20,7 @@
                     <p class="text-lg leading-relaxed text-serv-text font-light tracking-wide mb-10 lg:mb-18 ">
                         Find thousands of remote workers who have the best <br class="lg:block hidden">
                         skills and experience to help you accomplishing <br class="lg:block hidden">
-                        your projects.
+                        your projectss.
                     </p>
                     <div
                         class="md:flex contents items-center mx-auto lg:mx-0 lg:flex justify-center lg:space-x-8 md:space-x-2 space-x-0">
