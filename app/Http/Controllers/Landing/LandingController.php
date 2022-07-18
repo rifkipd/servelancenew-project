@@ -26,7 +26,7 @@ class LandingController extends Controller
     {
         $services = Service::orderBy('created_at','desc')->get();
 
-
+            
         return view('pages.landing.index',compact('services'));
     }
 
@@ -48,7 +48,7 @@ class LandingController extends Controller
      */
     public function store(Request $request)
     {
-        return abort(404);
+        return abort(404); 
 
     }
 
