@@ -75,9 +75,9 @@
                                             Hal apa aja yang didapakan dari service kamu?
                                         </p>
                                         
-                                        <input placeholder="Keunggulan Service 1" type="text" name="advantages-service[]" id="advantage-service" autocomplete="advantage-service" class="block w-full py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500 sm:text-sm" value="{{ old('advantage-service[]') }}" required>
-                                        <input placeholder="Keunggulan Service 2" type="text" name="advantages-service[]" id="advantage-service" autocomplete="advantage-service" class="block w-full py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500 sm:text-sm" value="{{ old('advantage-service[]') }}" required>
-                                        <input placeholder="Keunggulan Service 3" type="text" name="advantages-service[]" id="advantage-service" autocomplete="advantage-service" class="block w-full py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500 sm:text-sm" value="{{ old('advantage-service[]') }}" required>
+                                        <input placeholder="Keunggulan Service 1" type="text" name="advantage-service[]" id="advantage-service" autocomplete="advantage-service" class="block w-full py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500 sm:text-sm" value="{{ old('advantage-service[]') }}" required>
+                                        <input placeholder="Keunggulan Service 2" type="text" name="advantage-service[]" id="advantage-service" autocomplete="advantage-service" class="block w-full py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500 sm:text-sm" value="{{ old('advantage-service[]') }}" required>
+                                        <input placeholder="Keunggulan Service 3" type="text" name="advantage-service[]" id="advantage-service" autocomplete="advantage-service" class="block w-full py-3 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500 sm:text-sm" value="{{ old('advantage-service[]') }}" required>
                                         <div id="newServicesRow"></div>
                                         <button type="button" class="inline-flex justify-center px-3 py-2 mt-3 text-xs font-medium text-gray-700 bg-gray-100 border border-transparent rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500" id="addServicesRow">
                                             Tambahkan Keunggulan +
@@ -115,12 +115,12 @@
                                             <option value="7">7 Revisi</option>
                                             <option value="10">10 Revisi</option>
                                             <option value="12">12 Revisi</option>
+                                                                                
                                         </select>
                                         @if ($errors->has('revision_limit'))
                                             <p class="text-red-500 mb-3 text-sm">{{ $errors->first('revision_limit') }}</p>
                                          @endif    
                                        
-
                                     </div>
 
                                     <div class="col-span-6">
