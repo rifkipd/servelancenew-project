@@ -3,7 +3,7 @@
 @section('title', 'Booking Success')
 
 
-@section('contet')
+@section('content')
     <section class="w-auto flex min-h-[85vh] pt-6 pb-20 mx-auto lg:mx-12 px-4">
         <div class="m-auto text-center h-auto">
 
